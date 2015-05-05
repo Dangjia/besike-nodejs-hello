@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "A simple and naive greeter",
   "main": "index.js",
-  "bin": {"greet": "./bin/greet.js"},
+  "bin": {
+    "greet": "./bin/greet.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "hello-world"
   ],
   "author": "Dangjia",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "minimist": "^1.1.1",
+    "mocha": "^2.2.4"
+  }
 }
